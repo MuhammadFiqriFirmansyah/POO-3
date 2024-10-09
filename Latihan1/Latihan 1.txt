@@ -1,8 +1,9 @@
 Latihan 1
 
-1. Before creating an object, a class needs to be defined. A class is a blueprint or a template that defines the properties and behavior of an object. It specifies the characteristics of an object, such as its attributes (data) and methods (functions).
+1. Sebelum membuat sebuah objek, sebuah kelas perlu didefinisikan. Kelas adalah cetak biru atau template yang mendefinisikan properti dan perilaku sebuah objek. Kelas menentukan karakteristik sebuah objek, seperti atribut (data) dan metode (fungsi).
 
-2. +---------------+
+2.
++---------------+
 |  Person      |
 +---------------+
 | - name: string |
