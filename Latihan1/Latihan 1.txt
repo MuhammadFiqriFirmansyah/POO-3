@@ -1,0 +1,57 @@
+Latihan 1
+
+1. Before creating an object, a class needs to be defined. A class is a blueprint or a template that defines the properties and behavior of an object. It specifies the characteristics of an object, such as its attributes (data) and methods (functions).
+
+2. +---------------+
+|  Person      |
++---------------+
+| - name: string |
+| - age: int    |
++---------------+
+| + constructor |
+| + sayHello()  |
++---------------+
+
++---------------+
+|  Antor       |
++---------------+
+| - name: "Antor" |
+| - age: 25     |
++---------------+
+
++---------------+
+|  Riko        |
++---------------+
+| - name: "Riko"  |
+| - age: 30     |
++---------------+
+
+3. +---------------+
+|  AkunBank    |
++---------------+
+| - saldo: int  |
++---------------+
+| + simpanUang(amount: int) |
+| + ambilUang(amount: int)  |
+| + cekSaldo(): int        |
++---------------+
+
++---------------+
+|  akunAntor   |
++---------------+
+| - saldo: 100000 |
++---------------+
+| + simpanUang(50000) |
+| + ambilUang(20000)  |
+| + cekSaldo(): 80000  |
++---------------+
+
++---------------+
+|  akunRiko    |
++---------------+
+| - saldo: 50000  |
++---------------+
+| + simpanUang(30000) |
+| + ambilUang(10000)  |
+| + cekSaldo(): 70000  |
++---------------+
